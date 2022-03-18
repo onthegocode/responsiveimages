@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Responsive Images - Density Switching and Art Direction</title>
+	</head>
+	<body>
+		<picture class="responsive-img">
+			<source
+				srcset="bundini1x.png 1x, bundini2x.png 2x"
+				media="(max-width: 600px)"
+			/>
+			<img srcset="bunny1x.png 1x, bunny2x.png 2x" alt="Responsive Image" />
+		</picture>
+	</body>
+</html>
